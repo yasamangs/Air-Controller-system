@@ -77,7 +77,8 @@ The schematic below illustrates the system's design, as simulated in Proteus:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Air-Controller-system.git
-   cd Air-Controller-system```
+   cd Air-Controller-system
+```
 2. Open the main.ino file in Arduino IDE, and upload it to the ATmega328P microcontroller.
 3. Open proteus.pdsprj in Proteus to simulate the system's hardware behavior.
 4. Connect hardware components as per the Proteus schematic if deploying physically.
