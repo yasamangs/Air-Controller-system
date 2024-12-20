@@ -79,7 +79,21 @@ The schematic below illustrates the system's design, as simulated in Proteus:
    ```bash
    git clone https://github.com/your-username/Air-Controller-system.git
    cd Air-Controller-system
-```
+  ```
 2. Open the main.ino file in Arduino IDE, and upload it to the ATmega328P microcontroller.
 3. Open proteus.pdsprj in Proteus to simulate the system's hardware behavior.
 4. Connect hardware components as per the Proteus schematic if deploying physically.
+
+
+## Working
+
+### Temperature Control
+- If the average temperature (`avgT`) falls below **15°C**, the system activates the high-power heater.
+- If `avgT` exceeds **38°C**, the system activates the cooler.
+
+### Humidity Control
+- If the average humidity (`avgH`) drops below **70%**, the system increases humidity.
+- If `avgH` exceeds **85%**, the system disables the humidity controller.
+
+### Monitoring
+- The system continuously prints average temperature and humidity readings to the serial terminal.
