@@ -55,6 +55,7 @@ Air-Controller-System/
 │
 ├── README.md               # Project overview and documentation
 └── LICENSE                 # License information
+```
 
 ## Schematic
 The schematic below illustrates the system's design, as simulated in Proteus:
