@@ -41,7 +41,7 @@ Air-Controller-System/
 │   ├── main.ino            # Arduino-based embedded system code
 │
 ├── simulation/
-│   ├── proteus.pdsprj      # Proteus project file
+│   ├── shematic.pdsprj      # Proteus project file
 │
 ├── media/
 │   ├── schematic.PNG       # System schematic
