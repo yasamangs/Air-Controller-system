@@ -59,7 +59,7 @@ Air-Controller-System/
 
 ## Schematic
 The schematic below illustrates the system's design, as simulated in Proteus:
-![System Schematic](media/schematic.PNG)
+![System Schematic](media/shematic.PNG)
 
 ## Installation and Usage
 
